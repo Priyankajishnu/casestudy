@@ -10,6 +10,7 @@ function validate(){
     let err2=document.getElementById("err2");    
     if(uname.value=="admin" && pwd.value=="12345"){
         err2.innerHTML="Success!!";
+        err2.style.color="green";
         login();
         // err1.innerHTML="Success!!";
        return true;

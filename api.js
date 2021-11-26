@@ -12,7 +12,7 @@ function ajax(){
                     
                 }
                 else{
-                    output+=("<tr><td>"+'<input type="checkbox" id="checkbox" onclick=updateList()>'+"</td><td>"+response[i].title+"</td><tr>")
+                    output+=("<tr><td>"+'<input type="checkbox"  id="checkbox" onclick=updateList()>'+"</td><td>"+response[i].title+"</td></tr>");
                 }
                 // output+=("<tr><td>"+"<input id=remember type=checkbox unchecked>"+"</td><td>"+response[i].title+"</td></tr>");
             }
