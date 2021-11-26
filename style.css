@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .nav-link {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: black;
+    border: 1px solid black;
+    background: white;
+
+}
+.nav-link:hover{
+    color:burlywood;
+}
+/* login */
+.login{
+    position:absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:350px;
+    height:480px;
+    box-sizing: border-box;
+    background: (rgba0,0,0,.5);
+    padding:20px;
+}
+
+.log{
+    margin:0;
+    padding:0 0 20px;
+    color: mediumseagreen;
+    text-align: center;
+
+}
+.login label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+}
+.login input{
+    width:80%;
+    margin-bottom: 20px;
+    margin-left: 28px;
+    height: 2.2em;
+    border-radius: 5px;
+    border:none;
+}
+.login input[type="text"]
+.login input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height:55px;
+    color:dimgrey;
+    font-size: 16px;
+    
+}
+::placeholder{
+    color:dimgrey;
+}
+.login input[type="submit"]{
+    margin-top: 20px;
+    border:none;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+    background: #2196f3;
+    cursor:pointer;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.login input[type="submit"]:hover{
+    background:cornflowerblue;
+    color:#262626;
+}
+form .login {
+    border: 1px solid black;
+    height: 400px;
+    background:#27343f
+}
+
+
+
+/* button */
+#demo button{
+font-weight: bolder;
+width:25%;
+padding: 15px;
+margin-left:38%;
+margin-top: 40px;
+font-size:22px;
+background:lightgray;
+color:black;
+cursor: pointer;
+border: 1px solid grey;
+}
+#demo button:hover{
+background:grey;
+}
+
+table,th,td{
+border:1px solid black;
+border-collapse: collapse;
+
+}
+table{
+margin-left:21% ;
+
+}
+th{
+background:lightgoldenrodyellow;
+font-weight: bold;
+padding:13px;
+font-size: 18px;
+text-align: center;
+
+}
+td{
+background:transparent;
+padding: 10px;
+font-size: 15px;
+color: white;
+} 
+/* tr:hover{
+background:salmon;
+} */
+#heading{
+    text-align: center;
+    color:goldenrod;
+}
+table td #checkbox{
+    color:red;
+}
