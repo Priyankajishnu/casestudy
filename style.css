@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+*body{
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -111,7 +111,15 @@ border: 1px solid grey;
 background:grey;
 }
 
-table,th,td{
+
+#myTable{
+ border:1px solid black;
+ margin-left: 20%;
+ padding: 25px;
+ 
+ font-size: large;
+}
+/* table,th,td{
 border:1px solid black;
 border-collapse: collapse;
 
@@ -133,14 +141,14 @@ background:transparent;
 padding: 10px;
 font-size: 15px;
 color: white;
-} 
+}  */
 /* tr:hover{
 background:salmon;
 } */
 #heading{
     text-align: center;
-    color:goldenrod;
+    color:blue;
 }
-table td #checkbox{
+ #checkbox{
     color:red;
 }

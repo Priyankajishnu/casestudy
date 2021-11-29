@@ -5,14 +5,14 @@ function ajax(){
         if(this.readyState==4&&this.status==200){
             var response=JSON.parse(this.responseText);
             // var counter=0;
-            var output="<table><th></th><th>TITLE</th></table>";
+            var output="";
             for(var i=0;i<response.length;i++){
                 if(response[i].completed==true){
-                    output+=("<tr><td>"+'<input type="checkbox"  id="checkbox" checked=true disabled  >'+"</td><td>"+response[i].title+"</td></tr>");
+                    output+='<input type="checkbox"  id="checkbox" checked=true disabled  >'+" "+response[i].title+"<br><br>";
                     
                 }
                 else{
-                    output+=("<tr><td>"+'<input type="checkbox"  id="checkbox" onclick=updateList()>'+"</td><td>"+response[i].title+"</td></tr>");
+                    output+='<input type="checkbox"  id="checkbox" onclick=updateList()>'+" "+response[i].title+"<br><br>";
                 }
                 // output+=("<tr><td>"+"<input id=remember type=checkbox unchecked>"+"</td><td>"+response[i].title+"</td></tr>");
             }
